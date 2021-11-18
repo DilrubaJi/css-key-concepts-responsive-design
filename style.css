@@ -37,3 +37,30 @@ img {
     flex-flow: row wrap;
     border-style: groove;
 }
+
+@media all and (min-width: 700px) {
+    body { background-color: #6655ff; }
+    html {font-size: 125%;}
+}
+
+@media all and (min-width: 1000px) {
+    body { background-color: #adffad; }
+    html {font-size: 150%;}
+}
+
+@media all and (max-width: 480px) {
+    body { background-color: #ffda75; }
+    html {font-size: 100%;}
+    p.hidden { display:none }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #eee;
+        background: #121212;
+    }
+
+    body a {
+        color: #809fff;
+    }
+}
