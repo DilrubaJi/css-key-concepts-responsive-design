@@ -1,5 +1,4 @@
 :root {
-    /* display: flex; */
     --coral: #F05D5E;
     --teal: #0F7173;
     --light: #E7ECEF;
@@ -7,17 +6,23 @@
     --camel: #D8A47F;
 }
 
+html {
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 2.25em;
+}
+
+p {
+    font-size: 0.75em;
+}
+
 body {
-    /* display: flex; */
     background-color: var(--light);
 }
 
 .card {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: flex-start; */
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
     padding: 10px;
     margin: 10px;
     border-style: dotted;
@@ -31,6 +36,4 @@ img {
     display: flex;
     flex-flow: row wrap;
     border-style: groove;
-    /* flex-direction: row;
-    flex-wrap: wrap; */
 }
