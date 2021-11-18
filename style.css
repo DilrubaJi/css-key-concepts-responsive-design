@@ -1,4 +1,5 @@
 :root {
+    /* display: flex; */
     --coral: #F05D5E;
     --teal: #0F7173;
     --light: #E7ECEF;
@@ -7,14 +8,29 @@
 }
 
 body {
+    /* display: flex; */
     background-color: var(--light);
 }
 
 .card {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
     padding: 10px;
     margin: 10px;
+    border-style: dotted;
 }
 
 img {
     width: 250px;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+    border-style: groove;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
 }
