@@ -26,7 +26,6 @@ body {
 .card {
     padding: 10px;
     margin: 10px;
-    /* border-style: dotted; */
 }
 
 img {
@@ -36,11 +35,9 @@ img {
 .card-container {
     display: flex;
     flex-flow: row wrap;
-    /* border-style: groove; */
 }
 
 @media all and (min-width: 700px) {
-    /* body { background-color: #6655ff; } */
     html {font-size: 125%;}
     ul.navigation {
         display: flex;
@@ -49,13 +46,10 @@ img {
 }
 
 @media all and (min-width: 1000px) {
-    /* body { background-color: #adffad; } */
     html {font-size: 150%;}
 }
 
 @media all and (max-width: 480px) {
-    
-    /* body { background-color: #ffda75; } */
     html {font-size: 100%;}
     p.hidden { display:none }
     ul.navigation {
@@ -88,7 +82,6 @@ img {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-    
     list-style: none;
     margin: 0; 
     background: deepskyblue;
